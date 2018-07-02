@@ -1,0 +1,19 @@
+{
+    "name": "rollbar/rollbar-magento2",
+    "description": "Rollbar SDK for Magento 2",
+    "type": "library",
+    "require": {
+        "rollbar/rollbar": "^1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Moczulski",
+            "email": "artur.moczulski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Rollbar\\Magento2\\": "" },
+        "files": [ "registration.php" ]
+    }
+}
