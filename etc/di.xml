@@ -1,0 +1,5 @@
+<config>
+    <type name="\Magento\Framework\AppInterface">
+      <plugin name="Rollbar_Magento2_Init" type="\Rollbar\Magento2\Plugin\InitPlugin" sortOrder="1" />
+    </type>
+</config>
