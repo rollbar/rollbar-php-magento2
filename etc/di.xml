@@ -1,5 +1,8 @@
 <config>
     <type name="\Magento\Framework\AppInterface">
-      <plugin name="Rollbar_Magento2_Init" type="\Rollbar\Magento2\Plugin\InitPlugin" sortOrder="1" />
+      <plugin name="Rollbar_Magento2_Plugin_InitPlugin" type="\Rollbar\Magento2\Plugin\InitPlugin" sortOrder="1" />
+    </type>
+    <type name="\Magento\Framework\App\Http">
+      <plugin name="Rollbar_Magento2_Plugin_HttpPlugin" type="\Rollbar\Magento2\Plugin\HttpPlugin" sortOrder="1" />
     </type>
 </config>
