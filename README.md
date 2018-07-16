@@ -14,7 +14,7 @@ Rollbar error monitoring integration for Magento projects.
     ]
 ```
 3. Add any additional Rollbar configuration in `app/etc/env.php` under `rollbar` key.
-4. `bin/magento module:enable Rollbar_Module2`.
+4. `bin/magento module:enable Rollbar_Magento2`.
 5. `bin/magento setup:upgrade`.
 
 ## Usage and Reference
