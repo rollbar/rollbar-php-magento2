@@ -55,9 +55,3 @@ For bug reports, please [open an issue on GitHub](https://github.com/rollbar/rol
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-
-## Testing
-Tests are in `tests`.
-To run the tests: `composer test`
-To fix code style issues: `composer fix`
