@@ -4,7 +4,14 @@ Rollbar error monitoring integration for Magento projects.
 
 ## Setup Instructions
 
-TODO
+1. Add `rollbar-magento2` as a dependency in `composer.json` of your project and run `composer update`.
+2. Add your Rollbar post server access token to `app/etc/env.php` under `rollbar` key, ie:
+```php
+'rollbar' => [
+        'access_token' => 'eb2561a52efb4d4bba5a1d4b68be13e9'
+    ]
+```
+3. Add any additional Rollbar configuration in `app/etc/env.php` under `rollbar` key.
 
 ## Usage and Reference
 
