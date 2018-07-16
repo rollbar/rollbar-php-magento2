@@ -15,7 +15,9 @@ Rollbar error monitoring integration for Magento projects.
 
 ## Usage and Reference
 
-TODO
+The module should automatically report all PHP errors and exceptions in your Magento2 app. If you wish to add any manual logging
+in your app's code, use the standard Rollbar PH `\Rollbar\Rollbar::log` method. `\Rollbar\Rollbar::init` has been invoked already
+automatically with settings from `app/etc/env.php`.
   
 ## Release History & Changelog
 
