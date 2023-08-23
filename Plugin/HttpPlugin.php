@@ -8,6 +8,7 @@ class HttpPlugin
 	{
 		$callable($bootstrap, $exception);
 
-		return \Rollbar\Rollbar::error($exception)->wasSuccessful();
+		\Rollbar\Rollbar::error($exception);
+		return true;
 	}
 }
