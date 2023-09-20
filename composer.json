@@ -3,7 +3,7 @@
     "description": "Rollbar SDK for Magento 2",
     "type": "library",
     "require": {
-        "rollbar/rollbar": "^1"
+        "rollbar/rollbar": "^1 || ^4"
     },
     "license": "MIT",
     "authors": [
